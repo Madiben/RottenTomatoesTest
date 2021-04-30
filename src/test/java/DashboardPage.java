@@ -24,7 +24,4 @@ class DashboardPage extends PageBase {
     public String getMainCardTitle(){
         return this.waitAndReturnElement(mainCardBy).getText();
     }
-  /*  public String getCopyrightTitle(){
-        return this.waitAndReturnElement(mainFooterBy).getText();
-    }*/
 }

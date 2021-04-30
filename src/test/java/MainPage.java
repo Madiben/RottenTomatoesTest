@@ -18,7 +18,7 @@ class MainPage extends PageBase {
 
     public MainPage(WebDriver driver) {
         super(driver);
-        this.driver.get("https://www.rottentomatoes.scom");
+        this.driver.get("https://www.rottentomatoes.com");
     }    
     
     public LoginPage openLogin() {
